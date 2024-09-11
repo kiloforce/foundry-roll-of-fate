@@ -229,7 +229,7 @@ class Fatecontrol {
 			let tempArray = []
 			for(let i = 0; i < tokens.length; i++){
 				
-				if(tokens[i].actor.data.type != "npc"){
+				if(tokens[i].actor.type != "npc"){
 					tempArray.push(tokens[i])
 				}
 			}
